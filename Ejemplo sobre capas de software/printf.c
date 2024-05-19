@@ -17,7 +17,6 @@
 int __mingw_vprintf(const char *, __builtin_va_list);
 
 int main(int argc, char* argv[]);
-__mingw_stdio_redirect__
 int atoi(char* s);
 
 __mingw_stdio_redirect__
