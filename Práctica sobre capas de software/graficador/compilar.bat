@@ -1,0 +1,1 @@
+gcc -I"../dependencies/include" poligono_regular.c LoadShaders.c figuras.c -o app.exe -L"../dependencies/lib" -lglew32 -lglfw3 -lOpenGL32 -lgdi32

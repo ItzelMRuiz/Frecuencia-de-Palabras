@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Programas/ESCOM_NS_ISC_S4242_SO(Windows)/Dispositivos de entrada y salida/Salida sin librerias/Video/media/videos/graficador2/1080p60/partial_movie_files/CodeFromString2/3529212410_571444159_223132457.mp4'
+file 'file:D:/Programas/ESCOM_NS_ISC_S4242_SO(Windows)/Dispositivos de entrada y salida/Salida sin librerias/Video/media/videos/graficador2/1080p60/partial_movie_files/CodeFromString2/3040924799_1141282389_4099444518.mp4'
