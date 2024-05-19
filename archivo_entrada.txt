@@ -1,9 +1,0 @@
-a b c d e f g h i j k l m n ñ o p q r s t o u v w x y z a b c d e f  á g h i ñ ñ ñ ñ ñ  ñ ñ ñ ñ ñ       ññññ  ..... canción niño niño canción
-
-,,,,, op	op, cancion  NULL '\0'   \0  fin
-
-
-			ú ü
-ÚÄ
-
-			     hola
