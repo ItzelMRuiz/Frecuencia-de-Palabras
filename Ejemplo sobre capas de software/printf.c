@@ -18,8 +18,16 @@ int __mingw_vprintf(const char *, __builtin_va_list);
 
 int main(int argc, char* argv[]);
 __mingw_stdio_redirect__
-int printf(const char *__format, ...);
 int atoi(char* s);
+
+__mingw_stdio_redirect__
+int printf(const char *__format, ...) {
+  register int __retval;
+  __builtin_va_list __local_argv; __builtin_va_start(__local_argv, __format);
+  __retval = __mingw_vprintf(__format, __local_argv);
+  __builtin_va_end(__local_argv);
+  return __retval;
+}
 
 int main(int argc, char* argv[]) {
   if (argc < 3) {
@@ -45,15 +53,6 @@ int main(int argc, char* argv[]) {
   }
 
   return 0;
-}
-
-__mingw_stdio_redirect__
-int printf(const char *__format, ...) {
-  register int __retval;
-  __builtin_va_list __local_argv; __builtin_va_start(__local_argv, __format);
-  __retval = __mingw_vprintf(__format, __local_argv);
-  __builtin_va_end(__local_argv);
-  return __retval;
 }
 
 int atoi(char* s) {
