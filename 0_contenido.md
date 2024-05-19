@@ -2,8 +2,8 @@
 # Dispositivos de Entrada y Salida
 # Capas de Software
 - Investigación
-- Ejemplo
-- Práctica
+- Ejemplo (con instrucciones de elaboración)
+- Práctica (con instrucciones de elaboración)
 - Video
 - Kahoot
-- Reto del tema 5.1
+- Reto tema 5.1 (aprobado por los retadores)
